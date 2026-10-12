@@ -1,0 +1,27 @@
+{
+  "checked_at": "2026-10-06T08:36:32.656750+00:00",
+  "hot_count": 30,
+  "guest_count": 15,
+  "question_id": "2089041240256001032",
+  "question_title": "媒体曝腾讯 70 亿美元租用甲骨文海外算力，此举出于哪些考量？会带来哪些影响？",
+  "answer_count_first_page": 5,
+  "answer_paging_available": true,
+  "bodies": [
+    {
+      "answer_id": "2089774799715295300",
+      "body_pages": 1,
+      "segments": 14,
+      "reached_end": true,
+      "images": 4,
+      "image_http_status": 200
+    },
+    {
+      "answer_id": "2090127267406132933",
+      "body_pages": 2,
+      "segments": 25,
+      "reached_end": true,
+      "images": 0
+    }
+  ],
+  "answer_count_second_page": 5
+}
