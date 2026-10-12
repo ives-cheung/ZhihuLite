@@ -4,6 +4,12 @@
 
 > **仅供非商业学习、交流与研究。** 本项目为公开源码的学习项目，与知乎官方无隶属、合作或授权关系。
 
+## 下载安装
+
+**[直接下载知乎Lite 0.2.0 APK](https://github.com/ives-cheung/ZhihuLite/releases/download/v0.2.0/ZhihuLite-0.2.0.apk)** · [Releases 页面](https://github.com/ives-cheung/ZhihuLite/releases/tag/v0.2.0)
+
+支持 Android 8.0 及以上。当前为开发预览版，使用调试签名；安装时按系统提示允许浏览器安装应用。校验和与第三方许可包也可在 Releases 下载。
+
 ## 版权与使用范围
 
 - 原创代码与文档 © 2026 **ives-cheung 与项目贡献者**，适用 [非商业学习使用许可](LICENSE)。请保留版权、许可及引用声明；商业使用需另行取得相关权利人授权。
@@ -36,7 +42,7 @@ sdk.dir=/path/to/Android/sdk
 adb -s <设备序列号> install -r app/build/outputs/apk/release/app-release.apk
 ```
 
-发布构建启用 R8 与资源压缩；当前使用构建机器的 Android debug keystore 供调试，自行分发应配置自己的发布签名。签名文件、APK、本机设置、调试日志和真实设备截图不在公开仓库中。
+发布构建启用 R8 与资源压缩；当前使用构建机器的 Android debug keystore 供调试，自行分发应配置自己的发布签名。源码仓库不包含签名文件、本机设置、调试日志或真实设备截图；APK 通过 Releases 单独提供。
 
 设备验证脚本需要设置 `ANDROID_SERIAL`；执行会操作设备页面，部分脚本会写入本地收藏或历史。网络测试使用真实接口，无硬编码假数据。历史验证记录反映当时结果，不保证当前接口始终可用。
 

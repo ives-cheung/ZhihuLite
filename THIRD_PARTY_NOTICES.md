@@ -19,4 +19,4 @@
 
 [Apache-2.0 全文](licenses/Apache-2.0.txt)及[依赖归档内原始声明](licenses/runtime-artifact-notices.txt)随仓库保留。调研参考不属于编译依赖，详见 [引用与致谢](ACKNOWLEDGEMENTS.md)。
 
-本次发布源码，不上传本机调试 APK、签名密钥或用户数据。若自行分发二进制，应随分发保留适用的许可和声明，并核对各组件的分发义务。
+源码与开发预览 APK 分别通过仓库及 Releases 提供。APK 随附许可包（ZhihuLite-0.2.0-Licenses.zip），不上传签名密钥或用户数据。自行分发二进制时，应同时保留适用的许可和声明，并核对各组件的分发义务。
